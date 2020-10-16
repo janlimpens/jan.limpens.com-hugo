@@ -1,3 +1,40 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://jan.limpens.com/"
+languageCode = "pt-br"
+title = "Jan Limpens"
+theme = "crab"
+
+
+[params]
+description = "Ilustrações"
+# logoimage = "images/logo.jpg"
+# copyright = "foo"
+
+# mathjax = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+## Uncomment if you want mathjax enabled. The above cdn source is taken from https://gohugo.io/content-management/formats/#mathjax-with-hugo   
+
+[permalinks]
+blog  = "/blog/:year/:month/:title/"
+[[menu.main]]
+weight = 1
+name = "notícias"
+url = "/"
+[[menu.main]]
+weight = 2
+name = "ilustrações"
+url = "/ilustracoes/"
+[[menu.main]]
+weight = 3
+name = "livros"
+url = "/livros/"
+[[menu.main]]
+weight = 4
+name = "histórias em quadrinhos"
+url = "/hqs/"
+[[menu.main]]
+weight = 5
+name = "sobre"
+url = "/sobre/"
+[[menu.main]]
+weight = 6
+name = "contato"
+url = "/contato/"
