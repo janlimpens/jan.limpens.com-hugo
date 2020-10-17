@@ -1,11 +1,14 @@
 baseURL = "https://jan.limpens.com/"
 languageCode = "pt-br"
 title = "Jan Limpens"
-theme = "crab"
+subtitle = "ilustrador"
+theme = "ezhil"
 
 
 [params]
 description = "Ilustrações"
+#excludedTypes = ['ilustracoes', 'contact', 'sobre']
+mainSections = ['posts']
 # logoimage = "images/logo.jpg"
 # copyright = "foo"
 
