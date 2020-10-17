@@ -3,7 +3,7 @@ languageCode = "pt-br"
 title = "Jan Limpens"
 subtitle = "ilustrador"
 theme = "ezhil"
-
+enableInlineShortcodes = true
 
 [params]
 description = "Ilustrações"

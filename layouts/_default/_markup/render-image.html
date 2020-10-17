@@ -1,7 +1,8 @@
 <figure>
 {{- $img := .Page.Resources.GetMatch .Destination -}}
 {{- with $img -}}
-    <img src="{{ $img.RelPermalink }}" alt="{{ $.Text }}" title="{{ with $.Title }}{{ . }}{{ end }}" />
+{{- $src := $img.RelPermalink -}}
+    <img src="{{ $src }}" alt="{{ $.Text }}" title="{{ with $.Title }}{{ . }}{{ end }}" />
 {{- else -}}
     <img src="{{ .Destination | safeURL }}"  alt="{{ $.Text }}" title="{{ with $.Title }}{{ . }}{{ end }}" />
 {{- end -}}
