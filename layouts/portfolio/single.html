@@ -3,16 +3,6 @@
 {{ partial "header.html" . }}
 
 <body>
-    <style type="text/css">
-        .gallery ul li {
-            display: inline;
-            float: left;
-            list-style: none;
-            margin-bottom: 0;
-        }
-        .gallery a {margin: 0;}
-        .gallery img {margin: 0.5em;}
-    </style>
 	<div class="container wrapper post">
 		{{ partial "head.html" . }}
 
@@ -21,27 +11,44 @@
             <div class="meta">Ano: {{ dateFormat "2006" .Date }}</div>
             <div class="meta">Cliente: </div>
 		</div>
-
+{{.Content}}
         <div class="gallery">
-{{ $fit := .Params.fit }}
+{{ $crop := .Params.crop }}
 {{ with .Resources.ByType "image" }}
             <ul>
 {{ range . }}
-{{ $img := .Fit $fit }}
-{{ $href := .Fit "800x800"}}
+{{ $img := .Fill $crop }}
+{{ $href := .Fit "600x600"}}
                 <li>
-                    <a href="{{$href.RelPermalink}}"><img src="{{$img.RelPermalink}}" /></a>
+                    <a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
                 </li>
 {{ end }}
             </ul>
 {{ end }}
-
 		</div>
 	</div>
     {{ partial "footer.html" . }}
-    {{ $built := resources.Get "node_modules/jquery/dist/jquery.js" | js.Build "main.js" }}
-    <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
-
 </body>
 </html>
 
+{{- define "header" -}}
+<style type="text/css">
+    .gallery{
+        float: left;
+    }
+    .gallery ul {
+        padding-left: 0;
+    }
+    .gallery ul li {
+        display: inline;
+        float: left;
+        list-style: none;
+        margin-bottom: 0;
+    }
+    .gallery a {margin: 0;}
+    .gallery img {margin: 0.1em;}
+</style>
+<script type="text/javascript" src="/js/jquery.js" defer></script>
+<script type="text/javascript" src="/lightbox2/js/lightbox.js" defer></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/lightbox2/css/lightbox.css" />
+{{- end -}}
