@@ -4,16 +4,12 @@ title = "Jan Limpens"
 subtitle = "ilustrador"
 theme = "ezhil"
 enableInlineShortcodes = true
+defaultContentLanguage = "pt-br"
 
 [params]
 description = "Ilustrações"
-#excludedTypes = ['ilustracoes', 'contact', 'sobre']
 mainSections = ['posts']
-# logoimage = "images/logo.jpg"
-# copyright = "foo"
-
-# mathjax = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-## Uncomment if you want mathjax enabled. The above cdn source is taken from https://gohugo.io/content-management/formats/#mathjax-with-hugo   
+copyright = "© Jan Limpens"
 
 [permalinks]
 blog  = "/blog/:year/:month/:title/"
@@ -24,15 +20,15 @@ url = "/"
 [[menu.main]]
 weight = 2
 name = "ilustrações"
-url = "/ilustracoes/"
+url = "/portfolio/ilustracoes/"
 [[menu.main]]
 weight = 3
 name = "livros"
-url = "/livros/"
+url = "/portfolio/livros/"
 [[menu.main]]
 weight = 4
 name = "histórias em quadrinhos"
-url = "/hqs/"
+url = "/portfolio/hqs/"
 [[menu.main]]
 weight = 5
 name = "sobre"

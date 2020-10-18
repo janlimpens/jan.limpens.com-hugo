@@ -1,0 +1,43 @@
+---
+title: "Contato"
+date: 2020-10-17T19:46:27-03:00
+draft: false
+---
+<style type="text/css">
+    label {
+        width: 10em;
+        display: inline-block;
+    }
+    form div {
+        margin-top: 1em;
+    }
+</style>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6Le6jdgZAAAAAIgVxoAa5aVUPYwb3VgWhbSaGjJT"></script> 
+<form action="https://getform.io/f/9df106ce-1a8e-4baa-8dd6-3e6d89378e48" method="POST">
+<div>
+    <label for="name">Seu nome:</label>
+    <input type="text" name="name">
+</div>
+<div>
+    <label for="email">Seu email:</label>
+    <input type="email" name="email">
+</div>
+<div>
+    <label for="message">Sua mensagem:</label>
+    <textarea name="message"></textarea>
+</div>
+<div>
+    <button type="submit">Enviar</button>
+</div>
+<input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+</form>
+
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Le6jdgZAAAAAIgVxoAa5aVUPYwb3VgWhbSaGjJT', {action: 'homepage'})
+        .then(function(token) {
+          document.getElementById('captchaResponse').value = token;
+        });
+      });
+</script> 
