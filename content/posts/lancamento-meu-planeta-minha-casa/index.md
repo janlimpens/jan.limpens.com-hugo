@@ -12,7 +12,7 @@ categories:
 
 Livro infanto-juvenil sobre ativismo ambiental, na Editora do Brasil.
 
-- ![](Pagina-35-1.webp)
-- ![](Pagina-11-update-1.webp)
-- ![](Página-68-update-1-1.webp)
-- ![](Pagina-52-2.webp)
+- ![](Pagina-35-1.jpg)
+- ![](Pagina-11-update-1.jpg)
+- ![](Página-68-update-1-1.jpg)
+- ![](Pagina-52-2.jpg)

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "baguettebox.js": "^1.11.1",
     "jquery": "^3.5.1",
     "lightbox2": "^2.11.3"
   },

@@ -10,6 +10,9 @@ defaultContentLanguage = "pt-br"
 description = "Ilustrações"
 mainSections = ['posts']
 copyright = "© Jan Limpens"
+customCss = ["styles/custom.css", "lightbox2/css/lightbox.min.css"]
+customJs = ["js/jquery.js", "lightbox2/js/lightbox.min.js"]
+subtitle = "Desenhista"
 
 [permalinks]
 blog  = "/blog/:year/:month/:title/"

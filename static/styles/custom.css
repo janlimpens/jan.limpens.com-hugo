@@ -1,0 +1,20 @@
+.gallery {
+  float: left;
+}
+.gallery h2 {
+  margin: 0;
+}
+.gallery ul {
+  padding-left: 0;
+}
+.gallery ul li {
+  float: left;
+  list-style: none;
+  margin-bottom: 0;
+}
+.gallery a {
+  margin: 0;
+}
+.gallery img {
+  margin: 0.1em;
+}

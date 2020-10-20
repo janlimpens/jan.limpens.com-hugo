@@ -10,4 +10,4 @@ categories: ["História em Quadrinhos", "Folha de S Paulo", "Jornal"]
 ---
 
 No suplemento “Ilustrada” da Folha, foi aberto o “quadrão". O espaço, originalmente usado para tiras, é agora habitado por desenhos mais complexos nas segundas-feiras. Tive a grande honra de ser escolhido com Angeli, Laerte, Luiz Gê e Ricardo Coimbra. E também de poder estrear o novo projeto.
-![HQ Quadrão](2018-04-Folha-Ilustrada-HQ-2.webp)
+![HQ Quadrão](2018-04-Folha-Ilustrada-HQ-2.jpg)

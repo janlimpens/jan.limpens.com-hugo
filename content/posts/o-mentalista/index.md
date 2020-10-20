@@ -10,4 +10,4 @@ categories: ["Ilustração", "Illustration"]
 ---
 
 Esboço para um projeto com [Heloisa Prieto.](https://twitter.com/heloisa_prieto) [gallery type="rectangular" ids="1130"]
-![ilustração](Mentalista.webp)
+![ilustração](Mentalista.jpg)

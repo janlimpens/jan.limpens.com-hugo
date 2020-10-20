@@ -10,5 +10,5 @@ categories: ["Illustration", "Jornal", "Ilustração", "Folha de S Paulo"]
 ---
 
 Referente aos acontecimentos recentes no Rio, a Ilustríssima publicou uma série de artigos sobre o assunto. Fiz a capa e uma ilustração no miolo.
-![capa](2018-03-Folha-Ilustríssima-Capa.webp)
-![miolo](2018-03-Folha-Ilustríssima-Miolo.webp)
+![capa](2018-03-Folha-Ilustríssima-Capa.jpg)
+![miolo](2018-03-Folha-Ilustríssima-Miolo.jpg)

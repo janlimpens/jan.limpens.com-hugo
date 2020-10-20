@@ -12,5 +12,5 @@ categories:
 
 Capa para um livro infanto juvenil
 
-- ![](capa-cães-irados.webp)
-- ![](Contracapa.webp)
+- ![](capa-cães-irados.jpg)
+- ![](Contracapa.jpg)

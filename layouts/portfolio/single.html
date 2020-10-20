@@ -3,7 +3,6 @@
 {{ partial "header.html" . }}
 
 <body>
-    SINGLE.HTML
 	<div class="container wrapper post">
 		{{ partial "head.html" . }}
 
@@ -14,12 +13,12 @@
 		</div>
 {{.Content}}
         <div class="gallery">
-{{ $crop := .Params.crop }}
-{{ with .Resources.ByType "image" }}
+{{- $crop := .Params.crop | default "150x150" }}
+{{- with .Resources.ByType "image" }}
             <ul>
-{{ range . }}
-{{ $img := .Fill $crop }}
-{{ $href := .Fit "600x600"}}
+{{- range . }}
+{{- $img := .Fill $crop }}
+{{- $href := .Fit "600x600"}}
                 <li>
                     <a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
                 </li>

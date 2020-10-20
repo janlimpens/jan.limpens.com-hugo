@@ -8,6 +8,7 @@ draft: false
 description: "Retratos para Revista Quatro Cinco Um (451)"
 tags: ["ilustação"]
 categories: ["Illustration", "Revista", "Ilustração"]
+image-fit: "150x150"
 ---
 
 Retratos de ex-"garot*s de programa" escritor*s.

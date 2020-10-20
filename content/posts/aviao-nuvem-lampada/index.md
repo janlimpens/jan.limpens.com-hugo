@@ -10,4 +10,4 @@ categories: ["História em Quadrinhos"]
 post_format: ["post-format-image"]
 ---
 
-![HQ](001-avião-nuvem-lampada.webp)
+![HQ](001-avião-nuvem-lampada.jpg)

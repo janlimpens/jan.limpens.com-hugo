@@ -11,5 +11,5 @@ categories: ["Jornal", "Illustration", "Ilustração", "Folha de S Paulo"]
 
 Uma ilustríssima sobre o projeto de estandardização do currículo escolar nos EUA.
 
-- ![](Common-Core-Capa-2.webp)
-- ![](Common-Core-interior-lado-esquerdo.webp)
+- ![](Common-Core-Capa-2.jpg)
+- ![](Common-Core-interior-lado-esquerdo.jpg)

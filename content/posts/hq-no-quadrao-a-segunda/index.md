@@ -9,4 +9,4 @@ description: "HQ no quadrão, a segunda"
 categories: ["Jornal", "História em Quadrinhos", "Folha de S Paulo"]
 ---
 
-![HQ Quadrão](2018-05-Folha-Ilustrada-HQ-1.webp)
+![HQ Quadrão](2018-05-Folha-Ilustrada-HQ-1.jpg)

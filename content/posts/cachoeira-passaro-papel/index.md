@@ -12,4 +12,4 @@ post_format: ["post-format-image"]
 
 Da série de histórias automáticas
 
-![HQ](002-cachoeira-pássaro-papel.webp)
+![HQ](002-cachoeira-pássaro-papel.jpg)

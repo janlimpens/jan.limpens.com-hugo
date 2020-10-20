@@ -9,4 +9,4 @@ description: 'Recebemos mais dois "altamente recomendável" da FNLIJ'
 categories: ["Livros", "SESI", "Illustration", "Prêmios"]
 ---
 
-Agradeço pela dupla certificação de "altamente recomendável" da FNLIJ, dessa vez pelos livros [Una e o Leão](/livros/una-e-o-leao-sesi), escrito por [Heloisa Prieto](https://www.facebook.com/HeloisaPrieto) e Vitor Scatolin, SESI-SP e [A Fonte do Esquecimento](/livros/a-fonte-do-esquecimento-edelbra), por Heloisa Prieto, Edelbra, ambos com ilustrações minhas. ![foto dos certificados](fnlj-2017.webp)
+Agradeço pela dupla certificação de "altamente recomendável" da FNLIJ, dessa vez pelos livros [Una e o Leão](/livros/una-e-o-leao-sesi), escrito por [Heloisa Prieto](https://www.facebook.com/HeloisaPrieto) e Vitor Scatolin, SESI-SP e [A Fonte do Esquecimento](/livros/a-fonte-do-esquecimento-edelbra), por Heloisa Prieto, Edelbra, ambos com ilustrações minhas. ![foto dos certificados](fnlj-2017.jpg)

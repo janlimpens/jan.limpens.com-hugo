@@ -10,4 +10,4 @@ categories: ["História em Quadrinhos"]
 post_format: ["post-format-image"]
 ---
 
-![HQ](003-rato-cerebral-de-maçâ-2.webp)
+![HQ](003-rato-cerebral-de-maçâ-2.jpg)
