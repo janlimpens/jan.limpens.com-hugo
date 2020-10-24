@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "pt-br"
 title = "Jan Limpens"
 subtitle = "ilustrador"
-theme = "ezhil"
+theme = "basedoff"
 enableInlineShortcodes = true
 defaultContentLanguage = "pt-br"
 
