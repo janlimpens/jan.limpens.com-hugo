@@ -1,54 +1,25 @@
-<!DOCTYPE html>
-<html>
-{{ partial "header.html" . }}
-
-<body>
-	<div class="container wrapper post">
-		{{ partial "head.html" . }}
-
-		<div class="post-header">
+{{- define "main" }}
+        {{/*  portfolio/single  */}}
+        <div class="post-header">
 			<h1 class="title">{{ .Title }}</h1>
             <div class="meta">Ano: {{ dateFormat "2006" .Date }}</div>
             <div class="meta">Cliente: </div>
 		</div>
-{{.Content}}
+        <div id="content">
+            {{ .Content -}}
+        </div>
         <div class="gallery">
-{{- $crop := .Params.crop | default "150x150" }}
-{{- with .Resources.ByType "image" }}
-            <ul>
-{{- range . }}
-{{- $img := .Fill $crop }}
-{{- $href := .Fit "600x600"}}
-                <li>
-                    <a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
-                </li>
-{{ end }}
-            </ul>
-{{ end }}
-		</div>
-	</div>
-    {{ partial "footer.html" . }}
-</body>
-</html>
-
-{{- define "header" -}}
-<style type="text/css">
-    .gallery{
-        float: left;
-    }
-    .gallery ul {
-        padding-left: 0;
-    }
-    .gallery ul li {
-        display: inline;
-        float: left;
-        list-style: none;
-        margin-bottom: 0;
-    }
-    .gallery a {margin: 0;}
-    .gallery img {margin: 0.1em;}
-</style>
-<script type="text/javascript" src="/js/jquery.js" defer></script>
-<script type="text/javascript" src="/lightbox2/js/lightbox.js" defer></script>
-<link rel="stylesheet" type="text/css" media="screen" href="/lightbox2/css/lightbox.css" />
-{{- end -}}
+            {{- $crop := .Params.crop | default "150x150" }}
+            {{- with .Resources.ByType "image" }}
+                        <ul>
+            {{- range . }}
+            {{- $img := .Fill $crop }}
+            {{- $href := .Fit "600x600"}}
+                            <li>
+                                <a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
+                            </li>
+            {{ end }}
+                        </ul>
+            {{ end }}
+        </div>
+{{- end }}

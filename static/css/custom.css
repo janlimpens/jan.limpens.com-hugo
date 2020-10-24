@@ -1,10 +1,12 @@
 .gallery {
-  float: left;
 }
 .gallery h2 {
   margin: 0;
 }
 .gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   padding-left: 0;
 }
 .gallery ul li {

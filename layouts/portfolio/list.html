@@ -1,69 +1,32 @@
-<!DOCTYPE html>
-<html>
-{{ partial "header.html" . }}
+{{ define "main" }}
+    {{/*  _default/list      */}}
+    <h1>{{.Title}}</h1>
+    <div id="content">
+        {{.Content}}
+    </div>
+    <div>
+        {{- $paginator := .Paginate (where .Data.Pages "Params.hidden" "ne" true) -}}
+        {{- range $paginator.Pages -}}
+        <div class="gallery">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <div>
+                {{ .Content }}
+            </div>
+            {{ with .Resources.ByType "image" }}
+            <ul>
+                {{range .}} 
+                <li>
+                    {{ $img := .Fill "100x100 center" }}
+                    {{ $href := .Fit "600x600"}}
+                    <a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
+                {{end}}
+                </li>
+            </ul>
+            {{- end -}}               
+        </div>
+        {{- end }}
+    </div>
+    {{- template "partials/paginator.html" . }}
+{{ end }}
 
-<body>
-	<div class="container wrapper list">
-		{{ partial "head.html" . }}
 
-		{{ if isset .Data "Term" }}
-			<h1>Entries tagged - "{{ .Data.Term }}"</h1>
-		{{ else }}
-			<h1 class="page-title">{{ .Title }}</h1>
-		{{ end }}
-
-		{{ with .Content }}{{ . }}{{ end }}
-
-		<ul class="posts">
-			{{- range .Data.Pages.ByDate -}}
-			{{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
-			{{- else -}}
-			<li class="post">
-				<h2>
-					<a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</span>
-				</h2>
-				{{ with .Resources.ByType "image" }}
-				<ul>
-					{{range .}}
-					<li>
-						{{ $img := .Fill "64x64 center" }}
-						{{ $href := .Fit "600x600"}}
-						<a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
-					{{end}}
-					</li>
-				</ul>
-				{{- end -}}
-			</li>
-			{{- end -}}
-			{{- end -}}
-		</ul>
-	</div>
-
-	{{ partial "footer.html" . }}
-</body>
-
-</html>
-
-{{- define "header" -}}
-<style type="text/css">
-    ul.posts{
-		float: left;
-		list-style-type: none;
-    }
-    ul.posts ul {
-		padding-left: 0;
-		float: left;
-    }
-    ul.posts ul li {
-        display: inline;
-        float: left;
-        list-style: none;
-        margin-bottom: 0;
-    }
-    ul.posts a {margin: 0;}
-    ul.posts img {margin: 0.1em;}
-</style>
-<script type="text/javascript" src="/js/jquery.js" defer></script>
-<script type="text/javascript" src="/lightbox2/js/lightbox.js" defer></script>
-<link rel="stylesheet" type="text/css" media="screen" href="/lightbox2/css/lightbox.css" />
-{{- end -}}
