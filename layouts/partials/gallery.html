@@ -1,0 +1,17 @@
+{{- $hrefFit := $.Page.Param "image-fit" | default $.Page.Site.Params.defaultImageFit }}
+{{- $thumbCrop := $.Page.Param "thumb-crop" | default $.Page.Site.Params.defaultThumbCrop }}
+<div class="gallery">
+{{- with $.Page.Resources.ByType "image" }}
+    <ul>
+        {{- range . }} 
+        <li>
+            {{- $thumbHref := .Fill $thumbCrop }}
+            {{- $href := .Fit  $hrefFit}}
+            <a href="{{$href.RelPermalink}}" data-lightbox="gallery">
+                <img src="{{$thumbHref.RelPermalink}}"/>
+            </a>
+        {{- end }}
+        </li>
+    </ul>
+{{- end }} 
+</div>  

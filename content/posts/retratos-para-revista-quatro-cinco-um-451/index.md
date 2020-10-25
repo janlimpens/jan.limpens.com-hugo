@@ -8,13 +8,8 @@ draft: false
 description: "Retratos para Revista Quatro Cinco Um (451)"
 tags: ["ilustação"]
 categories: ["Illustration", "Revista", "Ilustração"]
-image-fit: "150x150"
 ---
 
-Retratos de ex-"garot*s de programa" escritor*s.
+Retratos de ex-"garot\*s de programa" escritor\*s.
 
-- ![](Garotas-de-Programa-Lourdes-Barreto.png)
-- ![](Garotas-de-Programa-Amara-Moira.png)
-- ![](Garotas-de-Programa-Gabriela-Leite.png)
-- ![](Garotas-de-Programa-Monique-Prada.png)
-- ![](Garotas-de-Programa-Zeichenfläche-6.png)
+{{< gallery >}}

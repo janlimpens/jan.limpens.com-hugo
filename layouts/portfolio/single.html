@@ -1,5 +1,4 @@
 {{- define "main" }}
-        {{/*  portfolio/single  */}}
         <div class="post-header">
 			<h1 class="title">{{ .Title }}</h1>
             <div class="meta">Ano: {{ dateFormat "2006" .Date }}</div>
@@ -8,18 +7,5 @@
         <div id="content">
             {{ .Content -}}
         </div>
-        <div class="gallery">
-            {{- $crop := .Params.crop | default "150x150" }}
-            {{- with .Resources.ByType "image" }}
-                        <ul>
-            {{- range . }}
-            {{- $img := .Fill $crop }}
-            {{- $href := .Fit "600x600"}}
-                            <li>
-                                <a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
-                            </li>
-            {{ end }}
-                        </ul>
-            {{ end }}
-        </div>
+        {{ partial "gallery.html" . }}
 {{- end }}

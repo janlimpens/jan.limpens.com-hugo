@@ -12,7 +12,8 @@ mainSections = ['posts']
 copyright = "© Jan Limpens"
 customCss = ["css/custom.css", "lightbox2/css/lightbox.min.css", "https://cdn.typenugget.com/tPS0VEQ05A?nug=UlVR0tAVFl"]
 customJs = ["js/jquery.js", "lightbox2/js/lightbox.min.js"]
-subtitle = "Desenhista"
+defaultImageFit = "800x800"
+defaultThumbCrop = "150x150 smart"
 
 [permalinks]
 blog  = "/blog/:year/:month/:title/"
@@ -40,3 +41,7 @@ url = "/sobre/"
 weight = 6
 name = "contato"
 url = "/contato/"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe=true

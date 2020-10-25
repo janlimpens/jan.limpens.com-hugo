@@ -9,5 +9,5 @@ description: "O Mentalista"
 categories: ["Ilustração", "Illustration"]
 ---
 
-Esboço para um projeto com [Heloisa Prieto.](https://twitter.com/heloisa_prieto) [gallery type="rectangular" ids="1130"]
+Esboço para um projeto com [Heloisa Prieto.](https://twitter.com/heloisa_prieto)
 ![ilustração](Mentalista.jpg)

@@ -1,5 +1,4 @@
 {{ define "main" }}
-    {{/*  _default/list      */}}
     <h1>{{.Title}}</h1>
     <div id="content">
         {{.Content}}
@@ -7,23 +6,11 @@
     <div>
         {{- $paginator := .Paginate (where .Data.Pages "Params.hidden" "ne" true) -}}
         {{- range $paginator.Pages -}}
-        <div class="gallery">
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <div>
-                {{ .Content }}
-            </div>
-            {{ with .Resources.ByType "image" }}
-            <ul>
-                {{range .}} 
-                <li>
-                    {{ $img := .Fill "100x100 center" }}
-                    {{ $href := .Fit "600x600"}}
-                    <a href="{{$href.RelPermalink}}" data-lightbox="gallery"><img src="{{$img.RelPermalink}}"/></a>
-                {{end}}
-                </li>
-            </ul>
-            {{- end -}}               
+        <h2 class="title">{{ .Title }}</h2>
+        <div>
+            {{ .Content }} <a href="{{.Permalink}}">[Mais]</a>
         </div>
+        {{ partial "gallery.html" . }}
         {{- end }}
     </div>
     {{- template "partials/paginator.html" . }}
