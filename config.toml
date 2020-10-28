@@ -10,17 +10,13 @@ defaultContentLanguage = "pt-br"
 description = "Ilustrações"
 mainSections = ['posts']
 copyright = "© Jan Limpens"
-customCss = ["css/custom.css", "lightbox2/css/lightbox.min.css", "https://cdn.typenugget.com/tPS0VEQ05A?nug=UlVR0tAVFl"]
+customCss = ["lightbox2/css/lightbox.min.css", "https://cdn.typenugget.com/tPS0VEQ05A?nug=UlVR0tAVFl", "css/custom.css"]
 customJs = ["js/jquery.js", "lightbox2/js/lightbox.min.js"]
 defaultImageFit = "800x800"
 defaultThumbCrop = "150x150 smart"
 
 [permalinks]
 blog  = "/blog/:year/:month/:title/"
-[[menu.main]]
-weight = 1
-name = "notícias"
-url = "/"
 [[menu.main]]
 weight = 2
 name = "ilustrações"
@@ -31,7 +27,7 @@ name = "livros"
 url = "/portfolio/livros/"
 [[menu.main]]
 weight = 4
-name = "histórias em quadrinhos"
+name = "quadrinhos"
 url = "/portfolio/hqs/"
 [[menu.main]]
 weight = 5

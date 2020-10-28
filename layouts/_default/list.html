@@ -1,0 +1,28 @@
+{{ define "main" }}
+    <h1>{{.Title}}</h1>
+    <div id="content">
+        {{.Content}}
+    </div>
+    <div class="listOfPages">
+        {{- $paginator := .Paginate (where .Data.Pages "Params.hidden" "ne" true) -}}
+        {{- range $paginator.Pages -}}
+        <div class="singleItemInList">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <div class="meta">
+                <div>{{ .PublishDate.Format "2. 1. 2006" }}</div>
+                {{- if .Params.tags }}
+                {{- range .Params.tags }}
+                <div>
+                    <a href="{{ "/tags/" | relURL }}{{ . | urlize}}">{{ . }}</a>
+                </div>
+                {{- end }}
+                {{- end }}
+            </div>
+            <div>
+                {{ .Content }}
+            </div>
+        </div>
+        {{- end }}
+    </div>
+    {{- template "partials/paginator.html" . }}
+{{ end }}

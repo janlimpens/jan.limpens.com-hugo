@@ -5,13 +5,13 @@
     <ul>
         {{- range . }} 
         <li>
-            {{- $thumbHref := .Fill $thumbCrop }}
-            {{- $href := .Fit  $hrefFit}}
-            <a href="{{$href.RelPermalink}}" data-lightbox="gallery">
-                <img src="{{$thumbHref.RelPermalink}}"/>
-            </a>
-        {{- end }}
+                {{- $thumbHref := .Fill $thumbCrop }}
+                {{- $href := .Fit  $hrefFit}}
+                <a href="{{$href.RelPermalink}}" data-lightbox="gallery">
+                    <img src="{{$thumbHref.RelPermalink}}"/>
+                </a>
         </li>
+        {{- end }}
     </ul>
 {{- end }} 
 </div>  

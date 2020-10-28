@@ -6,11 +6,12 @@
   flex-wrap: wrap;
   width: 100%;
   padding-left: 0;
+  margin: 0;
 }
 .gallery ul li {
   float: left;
   list-style: none;
-  margin-bottom: 0;
+  margin: 0;
 }
 .gallery a {
   margin: 0;
@@ -29,4 +30,36 @@ ul.pagination {
 ul.pagination li {
   list-style: none;
   margin-right: 1em;
+}
+
+.singleItemInList h2 {
+  width: 100%;
+}
+
+.singleItemInList p {
+  margin-top: 0;
+}
+
+.singleItemInList > div {
+  margin-right: 1em;
+}
+
+.singleItemInList .meta {
+  width: 7em;
+}
+
+.singleItemInList .meta * {
+  color: gray;
+}
+
+figure {
+  margin-left: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
 }
