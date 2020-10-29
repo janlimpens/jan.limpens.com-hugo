@@ -1,10 +1,10 @@
 baseURL = "/"
-languageCode = "pt-br"
+languageCode = "pt-BR"
 title = "Jan Limpens"
 subtitle = "ilustrador"
 theme = "basedoff"
 enableInlineShortcodes = true
-defaultContentLanguage = "pt-br"
+defaultContentLanguage = "pt-BR"
 
 [params]
 description = "Ilustrações"

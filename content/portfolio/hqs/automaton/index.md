@@ -1,6 +1,8 @@
 ---
 title: "Historietas automáticas"
 date: "2017-11-22"
+thumb-crop: "100x104"
+image-fit: "900x900"
+draft: false
 ---
-
-\[gallery type="rectangular" columns="6" ids="1023,1041,1054,1061"\]
+Projeto de quadrinhos a partir de uma seleção aletória de palavras predefinidas.

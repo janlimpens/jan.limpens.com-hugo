@@ -1,6 +1,5 @@
 ---
 title: "Desenhos de conceito"
-date: "2002-12-04"
+date: "2003-03-01"
+client: "Checkpoint Media, Vienna"
 ---
-
-\[gallery link="file" type="columns" ids="309,310,311,312,313,314,315"\]

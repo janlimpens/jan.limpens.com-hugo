@@ -1,6 +1,5 @@
 ---
 title: "Fantomás, ilustrações para projeções multimídia"
 date: "2014-12-04"
+client: "Casa del Kunf Fu"
 ---
-
-\[gallery link="file" type="columns" ids="440,441,442,443,444,445,446,447"\]

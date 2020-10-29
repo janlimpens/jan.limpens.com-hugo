@@ -11,10 +11,10 @@
                 <div class="article-content">
                     {{ .Content }}
                 </div>
-                {{ partial "gallery.html" . }}
+                {{ partial "partials/gallery.html" . }}
             </article>
-            {{- end }}
         </div>
+        {{- end }}
     </div>
     {{- template "partials/paginator.html" . }}
 </div>

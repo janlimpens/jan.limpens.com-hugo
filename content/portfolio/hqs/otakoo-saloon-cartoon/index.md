@@ -2,15 +2,4 @@
 title: "Otakoo Saloon Cartoon"
 date: "2004-12-04"
 ---
-
-### Fantastical Fly
-
-\[gallery link="file" type="columns" ids="348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387"\]
-
-### New York Potato Department
-
-\[gallery link="none" type="columns" ids="408,405,398,406,396,400,394,404,399,403,402,420,389,390,391,392,388,401,407,409,410,418,411,412,413,414,417,419,421,422,415,395"\]
-
-### Jimi Magic Salsa
-
-\[gallery link="none" type="columns" ids="436,423,424,425,426,427,428,429,430,431,432,433,434,435"\]
+Serie de quadrinhos publicada no site da TV austríaca estadual, ORF. Baseado nas personagens recorrentes nos teatros, sketches e filmes do grupo de performance vienense Casa del Kung Fu.

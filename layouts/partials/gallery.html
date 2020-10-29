@@ -1,17 +1,18 @@
 {{- $hrefFit := $.Page.Param "image-fit" | default $.Page.Site.Params.defaultImageFit }}
 {{- $thumbCrop := $.Page.Param "thumb-crop" | default $.Page.Site.Params.defaultThumbCrop }}
+{{- $galleryId := md5 $.Page.Permalink  -}}
 <div class="gallery">
-{{- with $.Page.Resources.ByType "image" }}
+    {{- with $.Page.Resources.ByType "image" }}
     <ul>
-        {{- range . }} 
+        {{- range . }}
         <li>
-                {{- $thumbHref := .Fill $thumbCrop }}
-                {{- $href := .Fit  $hrefFit}}
-                <a href="{{$href.RelPermalink}}" data-lightbox="gallery">
-                    <img src="{{$thumbHref.RelPermalink}}"/>
-                </a>
+            {{- $thumbHref := .Fill $thumbCrop }}
+            {{- $href := .Fit  $hrefFit}}
+            <a href="{{$href.RelPermalink}}" data-lightbox="gallery-{{$galleryId}}">
+                <img src="{{$thumbHref.RelPermalink}}" />
+            </a>
         </li>
         {{- end }}
     </ul>
-{{- end }} 
-</div>  
+    {{- end }}
+</div>

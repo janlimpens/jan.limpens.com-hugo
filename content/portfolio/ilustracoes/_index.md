@@ -4,4 +4,4 @@ title = "Ilustrações"
 draft = false
 +++
 
-Ilustrações por encomenda
+Diversas ilustrações encomendadas
