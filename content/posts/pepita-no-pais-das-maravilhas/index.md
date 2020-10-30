@@ -6,7 +6,7 @@ publishdate: 2019-08-28T13:40:39Z
 lastmod: 2019-08-28T13:40:39Z
 draft: false
 description: "Pepita no país das maravilhas"
-categories: ["História em Quadrinhos", "Folha de S Paulo"]
+tags: ["História em Quadrinhos", "Folha de S.Paulo"]
 ---
 
 ![HQ](1923542.jpeg "Pepita no país das maravilhas")

@@ -6,10 +6,9 @@ publishdate: 2017-05-04T20:49:56Z
 lastmod: 2017-11-01T17:19:12Z
 draft: false
 description: "Ilustríssima, common core"
-categories: ["Jornal", "Illustration", "Ilustração", "Folha de S Paulo"]
+tags: ["Jornal", "Illustration", "Ilustração", "Folha de S.Paulo"]
 ---
 
 Uma ilustríssima sobre o projeto de estandardização do currículo escolar nos EUA.
 
-- ![](Common-Core-Capa-2.jpg)
-- ![](Common-Core-interior-lado-esquerdo.jpg)
+{{<gallery>}}

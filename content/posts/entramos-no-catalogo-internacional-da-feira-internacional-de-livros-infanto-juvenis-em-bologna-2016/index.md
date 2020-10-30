@@ -6,7 +6,7 @@ publishdate: 2016-01-28T18:48:07Z
 lastmod: 2017-11-01T17:34:53Z
 draft: false
 description: "Entramos no catálogo internacional da Feira Internacional de Livros Infanto-Juvenis em Bologna 2016"
-categories: ["Ilustração", "Lançamento", "Ática", "Livros"]
+tags: ["Ilustração", "Lançamento", "Ática", "Livros"]
 ---
 
 ![capa livro imperdível](00-Capa_Capa-lowres-1-331x400.png "capa livro imperdível")

@@ -5,9 +5,8 @@ date: 2017-12-09T10:56:12Z
 publishdate: 2017-12-09T10:56:12Z
 lastmod: 2017-12-09T10:56:12Z
 draft: false
-description: "rato cerebral de maçã"
-categories: ["História em Quadrinhos"]
-post_format: ["post-format-image"]
+tags: ["História em Quadrinhos"]
+image-fit: "600x600"
 ---
 
 ![HQ](003-rato-cerebral-de-maçâ-2.jpg)
