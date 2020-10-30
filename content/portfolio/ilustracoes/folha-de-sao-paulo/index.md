@@ -1,7 +1,7 @@
 ---
 title: "Folha de São Paulo"
 date: 2020-10-16T11:27:46-03:00
-draft: true
+draft: false
 thumb-crop: "100x100 smart"
 ---
 
