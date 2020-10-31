@@ -16,6 +16,10 @@ defaultThumbCrop = "150x150 smart"
 [permalinks]
 blog  = "/blog/:year/:month/:title/"
 [[menu.main]]
+weight = 1
+name = "notícias"
+url = "/posts/"
+[[menu.main]]
 weight = 2
 name = "ilustrações"
 url = "/portfolio/ilustracoes/"
