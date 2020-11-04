@@ -1,18 +1,14 @@
 ---
-title: "Novo livro, uma amizade de ouro, na editora FTD"
-author: Jan Limpens
-date: 2016-06-23T18:49:22Z
-publishdate: 2016-06-23T18:49:22Z
-lastmod: 2016-06-23T18:49:22Z
+title: "Novo livro, Uma Amizade de Ouro"
+author: Marcia Kupstas
+publisher: FTD
+date: 2016-06-23
 draft: false
-description: "Novo livro, uma amizade de ouro, na editora FTD"
-tags: ["Illustration", "Livros", "Ilustração", "Lançamento"]
+tags: ["lançamento", "livro", "ilustração", "infanto-juvenil"]
 ---
+Acabei de lançar a minha primeira colaboração para a editora FTD, de São Paulo. Foi escrita pela reconhecida autora brasileira Márcia Kupstas, que acabou de fazer seus 30 anos de livros publicados.
 
-![Post](Post.jpg) Acabei de lançar a minha primeira colaboração para a editora FTD, de São Paulo. Foi escrita pela reconhecida autora brasileira Márcia Kupstas, que acabou de fazer seus 30 anos de livros publicados. A história trata de uma menina pré-adolescente, que resolve fugir com seu cão, um pitbull chamado Gold, quando uma vizinha chama a polícia para levar esse melhor amigo dela. Ela se perde no mundo sombrio do centro de São Paulo e chama a atenção de várias pessoas, algumas mal intencionadas. Que bom que ela recebe a ajuda de um menino de rua! Lembra um pouco um mágico de Oz moderno, não acha? Imagens a seguir:
+A história trata de uma menina pré-adolescente, que resolve fugir com seu cão, um pitbull chamado Gold, quando uma vizinha chama a polícia para levar esse melhor amigo dela. Ela se perde no mundo sombrio do centro de São Paulo e chama a atenção de várias pessoas, algumas mal intencionadas. Que bom que ela recebe a ajuda de um menino de rua!
 
-- ![](2-fuga.jpg)
-- ![](3-Sta-Cecilia.jpg)
-- ![](5-cemitério.jpg)
-- ![](7-favela.jpg)  
-  e [também aqui.](/livros/uma-amizade-de-ouro-ftd/)
+Lembra um pouco um mágico de Oz moderno, não acha? Imagens a seguir:
+{{<gallery>}}

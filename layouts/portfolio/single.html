@@ -1,11 +1,19 @@
 {{- define "main" }}
-        <div class="post-header">
-			<h1 class="title">{{ .Title }}</h1>
-            <div class="meta">Ano: {{ dateFormat "2006" .Date }}</div>
-            <div class="meta">Cliente: </div>
-		</div>
-        <div id="content">
-            {{ .Content -}}
+<article class="article">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="flex-row">
+        <aside class="article-meta">
+            <div>Ano: {{ dateFormat "2006" .Date }}</div>
+            {{ with .Params.Publisher }}
+            <div>Editora: {{.}}</div>
+            {{end}} {{ with .Params.Author }}
+            <div>Autor: {{.}}</div>
+            {{end}} {{ template "partials/social.html" . }}
+        </aside>
+        <div class="article-content">
+            {{ .Content }}
         </div>
-        {{ partial "gallery.html" . }}
-{{- end }}
+    </div>
+</article>
+
+{{ partial "gallery.html" . }} {{- end }}
