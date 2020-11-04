@@ -1,3 +1,6 @@
 [submodule "themes/basedoff"]
 	path = themes/basedoff
-	url = file:///home/janlimpens/Entwicklung/basedoff/
+	url = https://github.com/janlimpens/hugo-theme-basedoff.git
+[submodule "public"]
+	path = public
+	url = https://github.com/janlimpens/janlimpens.github.io.git
