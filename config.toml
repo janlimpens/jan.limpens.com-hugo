@@ -3,7 +3,7 @@ languageCode = "pt-BR"
 title = "Jan Limpens"
 theme = "basedoff"
 enableInlineShortcodes = true
-defaultContentLanguage = "pt-BR"
+defaultContentLanguage = "pt"
 
 [params]
 subtitle = "ilustrador"
