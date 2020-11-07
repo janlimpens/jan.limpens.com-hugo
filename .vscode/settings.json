@@ -3,7 +3,11 @@
     "html.format.wrapLineLength": 0,
     "editor.formatOnSave": true,
     "html.format.enable": true,
-    "html.format.indentHandlebars": false,
+    "html.format.indentHandlebars": true,
     "html.format.maxPreserveNewLines": 1,
-    "LanguageTool Linter: Service Type": "public"
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    }
 }
