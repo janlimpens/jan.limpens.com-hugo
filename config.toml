@@ -1,4 +1,4 @@
-baseURL = "https://jan.limpens.com"
+baseURL = "https://jan.limpens.com/"
 languageCode = "pt-BR"
 title = "Jan Limpens"
 theme = "basedoff"
