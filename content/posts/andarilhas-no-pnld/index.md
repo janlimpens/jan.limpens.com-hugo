@@ -7,4 +7,5 @@ title = "Andarilhas, no PNLD"
 +++
 A minha primeira colaboração coma Heloísa Prieto, autora de muitos outros livros que ilustrei, "Andarilhas", um livro sobre três jovens viajantes entrou no PNLD desse ano. O livro foi lançado em 2013 e é uma imensa alegria, que o livro, dessa maneira recebe mais atenção.
 
-![](/uploads/37-cigana3.jpg)![](/uploads/20-21-combi-copy.jpg)
+![](37-cigana3.jpg)
+![](20-21-combi-copy.jpg)
