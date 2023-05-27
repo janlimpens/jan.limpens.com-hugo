@@ -18,8 +18,11 @@ Mit `hugo server` kann man eine lokale, dynamische Kopie sehen. Alles ist gut.
 
 ## Push it!
 
-Ich habe den bbranch netlify. Auf master (oder sonstwas) entwickle ich, merge Änderungen in netlify und pushe dann.
-Das triggert die Publikation auf netlify.
+Ich habe den branch netlify. Auf master (oder sonstwas) entwickle ich, merge Änderungen in netlify und pushe dann.
+Das triggert die Publikation auf netlify. Die Benennungen sind suboptimal => netlify -> master; master -> irgendwelche
+feature branches, die ich eigentlich nur lokal brauchen sollte.
 
 Offensichtlich muss man das "build image" auf netlify immer wieder erneuern, meines ist eben deprecated gewesen.
-Offensichtlich verwendet netlify ein uralt hugo ...
+
+Netlify verwendet ein hugo, das nur im branch netlify, in der Datei netlify.toml definiert ist. Ich habe es jetzt auf major
+0.111 gesetzt, mal schauen, ob das klappt - vorher hatte ich es auf mindor 0.75.8 (oder so).
