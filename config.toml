@@ -4,7 +4,7 @@ title = "Jan Limpens"
 theme = "basedoff"
 enableInlineShortcodes = true
 defaultContentLanguage = "pt-br"
-
+timeout = "120s"
 [params]
 subtitle = "ilustrador"
 mainSections = ['posts']
