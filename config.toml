@@ -1,9 +1,9 @@
 baseURL = "/"
-languageCode = "pt-BR"
+languageCode = "pt-br"
 title = "Jan Limpens"
 theme = "basedoff"
 enableInlineShortcodes = true
-defaultContentLanguage = "pt-BR"
+defaultContentLanguage = "pt-br"
 
 [params]
 subtitle = "ilustrador"
@@ -14,7 +14,7 @@ defaultImageFit = "800x800"
 defaultThumbCrop = "150x150 smart"
 
 [permalinks]
-blog  = "/blog/:year/:month/:title/"
+blog = "/blog/:year/:month/:title/"
 [[menu.main]]
 weight = 1
 name = "notícias"
@@ -41,5 +41,5 @@ name = "contato"
 url = "/contato/"
 
 [markup]
-  [markup.goldmark.renderer]
-    unsafe=true
+[markup.goldmark.renderer]
+unsafe = true
