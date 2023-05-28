@@ -14,6 +14,9 @@ welches und der Submodulsupport von git ist jüngst besser geworden ...
 Beim ersten Aufruf von hugo, bekomme ich zahlreiche `infite recursion` Fehler, hugo hat aber einfach zu lange zum Bilder
 generieren gebraucht und deshalb aufgegeben. Die weiteren Aufrufe waren dann ok und schneller.
 
+In Folge habe ich den timeout in config.toml auf 10 Minuten erhöht, seither keine Probleme. Ich denke dass der gratis build
+Prozess bei Netlify einfach etwas schwachbrüstig ist und man ihm mehr Zeit geben muss. Im Code sehe ich keine Probleme.
+
 Mit `hugo server` kann man eine lokale, dynamische Kopie sehen. Alles ist gut.
 
 ## Push it!
