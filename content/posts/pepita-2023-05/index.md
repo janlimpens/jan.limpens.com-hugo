@@ -1,6 +1,6 @@
 ---
 title: Quadrão Maio 2023
-date: 2023-05-28T10:40:00.000+01:00
+date: 2023-05-28
 category:
 author: Jan Limpens
 tags:
